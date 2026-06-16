@@ -270,7 +270,7 @@ function Sel({options,value,onChange,isMobile}){
   );
 }
 
-function Lbl({text,sub,color}){
+function Lbl({text,sub=undefined,color}){
   return(
     <div style={{display:"flex",alignItems:"baseline",gap:8,marginBottom:8}}>
       <div style={{fontSize:9,fontWeight:800,letterSpacing:"0.14em",color:color||GRAY,textTransform:"uppercase"}}>{text}</div>
